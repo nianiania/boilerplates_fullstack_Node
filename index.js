@@ -14,15 +14,15 @@ app.set('view engine', '.hbs');
 
 
 
-app.route('/')
-	.get(function(req, res){
-		res.render('resep')
 
-	})
 
-	.post(function(req, res){
 
-	})
+
+
+
+
+
+
 
 
 
