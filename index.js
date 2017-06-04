@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var exphbs = require('express-handlebars')
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser') 
 
 
 app.use(bodyParser. urlencoded({extended : true}));
@@ -12,14 +12,14 @@ app.set('view engine', '.hbs');
 
 
 
+// ================ Routes ================== //
+app.route('/')
+	.get(function(req, res){ 
+		res.send("Hello World")
+	})
+	.post(function(req, res){
 
-
-
-
-
-
-
-
+	})
 
 
 
